@@ -174,13 +174,20 @@ hr{
 
 /* responsive styles */
 
+
+/* mobile design */
+
 @media only screen and (max-width: 688px) {
+    .navbar{
+        width: 100%;
+    }
     .nav-container{
         flex-direction: column;
         padding-top: 5px;
     }
     .container{
-        width: 80%;
+        width: 90%;
+        margin-bottom: 30px;
     }
     .top-players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
@@ -192,3 +199,19 @@ hr{
         margin-bottom: 40px;
     }
 }
+
+/* tablet Design */
+
+@media only screen and (min-width: 689px) and (max-width:992px){ 
+    .top-players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        padding-bottom: 80%;
+    }
+    .course{
+        margin-bottom: 40px;
+    }
+
+}
+
