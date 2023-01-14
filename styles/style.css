@@ -165,11 +165,13 @@ hr{
     padding-top: 15px;
 }
 .fa-star.filled{
-    color: #FFC014;;
+    color: #FFC014;
 }
 .fa-star.empty{
     color: #AEAEAE;;;
 }
+
+
 
 
 /* responsive styles */
@@ -212,6 +214,6 @@ hr{
     .course{
         margin-bottom: 40px;
     }
-
+    
 }
 
